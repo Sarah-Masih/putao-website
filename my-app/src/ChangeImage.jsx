@@ -1,13 +1,16 @@
 import React from 'react';
-import Graduant from './images/graduant.png';
-import AngryLoaf from './images/angry_loaf.png';
+import DisplayImg from './DisplayImage';
 
+let coinToss = ''
+let coinTossChange = 'hello'
 
 function ChangeImage(){
-   
-    //DisplayImg= <img src= {AngryLoaf} alt="Angry Loaf" />
-    // check status of button, if clicked then switch images
-    return <img src= {Graduant} alt="Graduate" />;
+  
+    coinToss = Math.random()<0.5? 'heads':'tails'
+
+    alert("Coin Toss: " + coinTossChange);
+ 
+    return (coinToss);
 };
 
 export default ChangeImage;

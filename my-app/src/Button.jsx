@@ -1,13 +1,14 @@
 import React from 'react';
 import ChangeImage from './ChangeImage';
+import DisplayImg from './DisplayImage';
+
+
+
 function Button (props){
 
-    function SaySomething(){
-        ChangeImage();
-    }
     
     return (
-        <button onClick = {SaySomething}>
+        <button onClick = {() => ChangeImage()}>
             Change Image
         </button>
     );

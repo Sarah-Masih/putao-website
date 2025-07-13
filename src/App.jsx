@@ -12,9 +12,6 @@ function App() {
   
   return (
     <>
-     
-
-
       <h1>Putao Website</h1>
 
 

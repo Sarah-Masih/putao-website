@@ -4,7 +4,7 @@ import DisplayImg from './DisplayImage';
 
 
 
-function Button (props){
+function Button (){
 
     
     return (
